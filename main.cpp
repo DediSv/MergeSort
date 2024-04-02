@@ -57,23 +57,6 @@ void merge(vector <int> &array, int l, int middle, int r){ //Spojení 2 array
         j++;
         k++;
     }
-
-
-    /*vector <int> tmp; //Temporary array for saving
-    int i = l; //pointer on the 1st array start
-    int j = middle + 1; //pointer on the 2st array start
-    int k = l; //pointer on the tmp array start
-    while (i <= middle && j <= r){
-        if (array[i] < array[j]){ //jeli element zleva < el zprava
-            tmp[k] = array[i]; //zapsat levý
-            i++; //posun i-tého pointra
-            k++; //rozšíření tmp
-        }
-        tmp[k] = array[j]; //zapsat pravý
-        j++; //posun j-tého pointra
-        k++;
-    }
-    return tmp;*/
 }
 
 void MergeSort(vector <int> &array, int left, int right){
